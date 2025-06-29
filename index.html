@@ -3,92 +3,373 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKSHIT BOT Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>🚀 Affordable VPS Hosting – Indian IP 🇮🇳 | Secure Payments</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #ffffff;
+            color: #333;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: 1px solid #e6e6e6;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header a {
+            color: #333;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            float: right;
+            margin-top: 10px;
+        }
+        header li {
+            display: inline;
+            padding: 0 15px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        #showcase {
+            min-height: 450px;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        #showcase h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        #showcase p {
+            font-size: 20px;
+            max-width: 700px;
+        }
+        #showcase .policy {
+            background: rgba(255,255,255,0.1);
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+        #features {
+            padding: 40px 20px;
+            background: #ffffff;
+        }
+        #features h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+        .feature-item {
+            padding: 20px;
+        }
+        .feature-item h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        #plans {
+            padding: 50px 0;
+            background: #f7f9fc;
+        }
+        #plans h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+        .plans-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .plan {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            padding: 30px 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .plan:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+        }
+        .plan h3 {
+            color: #333;
+            font-size: 20px;
+            margin-top: 0;
+        }
+        .price {
+            font-size: 36px;
+            font-weight: 700;
+            color: #007bff;
+            margin: 15px 0;
+        }
+        .price span {
+            font-size: 16px;
+            font-weight: 400;
+            color: #666;
+        }
+        .plan ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .plan ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .plan ul li:last-child {
+            border-bottom: none;
+        }
+        .cta-button {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background: #28a745;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background: #218838;
+        }
+        .contact-button {
+            display: block;
+            text-decoration: none;
+            color: #007bff;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+        #os-section {
+            text-align: center;
+            padding: 40px 20px;
+            background: #fff;
+        }
+         #os-section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+        .os-options {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        .os-option {
+            text-align: center;
+        }
+        .os-option img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        #payment-section {
+            padding: 40px 20px;
+            text-align: center;
+            background: #f7f9fc;
+        }
+        #payment-section img {
+            max-width: 250px;
+            margin-bottom: 20px;
+        }
+        #payment-section p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        footer {
+            padding: 30px 20px;
+            color: #fff;
+            background-color: #343a40;
+            text-align: center;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Akshit bot  Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>This is the home page.</p>
-        </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>Learn more about us.</p>
-        </section>
-        <section id="services">
-            <h2>Services</h2>
-            <p>Discover our services.</p>
-        </section>
-        <section id="shop">
-            <h2>Shop</h2>
-            <div class="product">
-                <h3>VPS Ubuntu - 22.04 Version</h3>
-                <ul>
-                    <li><strong>1 Month:</strong></li>
-                    <li>4GB  RAM 2 cpu/core 30gb  storage - 120RS</li>
-                    <li>8GB  RAM 2 cpu/core 30gb  storage - 170RS</li>
-                    <li>16GB RAM 2 cpu/core 30gb  storage - 220RS</li>
-                    <li>16GB RAM 4 cpu/core 64gb  storage - 250RS</li>
-                    <li>32GB RAM 4 cpu/core 64gb  storage - 299RS</li>
-                    <li>32GB RAM 8 cpu/core 64gb  storage - 349RS</li>
-                    <li>64GB RAM 4 cpu/core 128gb storage - 400RS</li>
-                    <li>64GB RAM 8 cpu/core 128gb storage - 469RS</li>
-                     
-                    <li><strong>3 Month:</strong></li>
-                    <li>4GB  RAM 2 cpu/core 30gb  storage - coming soon</li>
-                    <li>8GB  RAM 2 cpu/core 30gb  storage - coming soon</li>
-                    <li>16GB RAM 2 cpu/core 30gb  storage - coming soon</li>
-                </ul>
-                <button onclick="showPaymentOptions()">Buy Now</button>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="#">🚀 VPS India</a></h1>
             </div>
-            <div class="product">
-                <h3>RDP Windows - Win 7/8/10</h3>
+            <nav>
                 <ul>
-                    <li><strong>1 Month:</strong></li>
-                    <li>4 GB RAM - 150 RS</li>
-                    <li>8 GB RAM - 199 RS</li>
-                    <li>16 GB RAM - 249 RS</li>
-                    <li><strong>3 Month:</strong></li>
-                    <li>2 GB RAM - Not available</li>
-                    <li>8 GB RAM - 548 RS</li>
-                    <li>16 GB RAM - 649 RS</li>
+                    <li><a href="#plans">Plans</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#os-section">OS</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <button onclick="showPaymentOptions()">Buy Now</button>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>DM me on Telegram: <a href="https://t.me/akshitbot_me">@akshitbot_me</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Akshit Bot Website. All rights reserved.</p>
-    </footer>
-
-    <!-- Payment Modal -->
-    <div id="paymentModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Payment Options</h2>
-            <p>Scan the QR code to pay via UPI</p>
-            <img src="https://i.ibb.co/8rpLWd0/file-6763.jpg" alt="UPI QR Code">
-            <p>Or use UPI ID: akshitb22@jio</p>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <script src="scripts.js"></script>
+    <section id="showcase">
+        <div class="container">
+            <h1>Affordable VPS Hosting – Blazing Fast Indian IP 🇮🇳</h1>
+            <p>Get high-performance, reliable VPS hosting with a dedicated Indian IP. Perfect for businesses, developers, and resellers looking for speed and stability.</p>
+            <p class="policy">🔒 100% Uptime Guarantee | ❌ No Refund Policy</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+             <h2>Why Choose Us?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h3>💯 Full Warranty</h3>
+                    <p>We stand by our service quality, ensuring your VPS runs smoothly and reliably around the clock.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>⚡ Fast Performance</h3>
+                    <p>Experience blazing-fast speeds with our enterprise-grade SSDs and powerful CPU cores.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>📍 Indian IP Address</h3>
+                    <p>Target your Indian audience effectively with a local IP, ensuring lower latency and better SEO.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plans">
+        <div class="container">
+            <h2>📦 VPS Plans & Pricing</h2>
+            <div class="plans-grid">
+                <div class="plan">
+                    <h3>💠 Starter</h3>
+                    <ul>
+                        <li><strong>2 Core</strong> CPU</li>
+                        <li><strong>2GB</strong> RAM</li>
+                        <li><strong>50GB</strong> SSD Storage</li>
+                    </ul>
+                    <div class="price">₹400 <span>/month</span></div>
+                    <a href="https://payments.cashfree.com/forms/2GB_RAM" class="cta-button">Pay</a>
+                    <a href="mailto:akshitbhatia2050@gmail.com?subject=Inquiry: Starter Plan" class="contact-button">DM for Info</a>
+                </div>
+                <div class="plan">
+                    <h3>💠 Business</h3>
+                     <ul>
+                        <li><strong>2 Core</strong> CPU</li>
+                        <li><strong>4GB</strong> RAM</li>
+                        <li><strong>50GB</strong> SSD Storage</li>
+                    </ul>
+                    <div class="price">₹550 <span>/month</span></div>
+                    <a href="#" class="cta-button">Pay</a>
+                    <a href="mailto:akshitbhatia2050@gmail.com?subject=Inquiry: Business Plan" class="contact-button">DM for Info</a>
+                </div>
+                <div class="plan">
+                    <h3>💠 Pro</h3>
+                     <ul>
+                        <li><strong>4 Core</strong> CPU</li>
+                        <li><strong>8GB</strong> RAM</li>
+                        <li><strong>50GB</strong> SSD Storage</li>
+                    </ul>
+                    <div class="price">₹700 <span>/month</span></div>
+                    <a href="#" class="cta-button">Pay</a>
+                    <a href="mailto:akshitbhatia2050@gmail.com?subject=Inquiry: Pro Plan" class="contact-button">DM for Info</a>
+                </div>
+                 <div class="plan">
+                    <h3>💠 Power</h3>
+                     <ul>
+                        <li><strong>4 Core</strong> CPU</li>
+                        <li><strong>12GB</strong> RAM</li>
+                        <li><strong>80GB</strong> SSD Storage</li>
+                    </ul>
+                    <div class="price">₹900 <span>/month</span></div>
+                    <a href="#" class="cta-button">Pay</a>
+                    <a href="mailto:akshitbhatia2050@gmail.com?subject=Inquiry: Power Plan" class="contact-button">DM for Info</a>
+                </div>
+                 <div class="plan">
+                    <h3>💠 Elite</h3>
+                     <ul>
+                        <li><strong>4 Core</strong> CPU</li>
+                        <li><strong>16GB</strong> RAM</li>
+                        <li><strong>80GB</strong> SSD Storage</li>
+                    </ul>
+                    <div class="price">₹1100 <span>/month</span></div>
+                    <a href="#" class="cta-button">Pay</a>
+                    <a href="mailto:akshitbhatia2050@gmail.com?subject=Inquiry: Elite Plan" class="contact-button">DM for Info</a>
+                </div>
+            </div>
+             <p style="text-align: center; margin-top: 30px; font-size: 18px;">🖥️ <strong>Yearly Plans Available!</strong> DM for special discounts.</p>
+        </div>
+    </section>
+    
+    <section id="payment-section">
+        <div class="container">
+             <img src="logo/Cashfree.Payments.logo.jpg" alt="Cashfree Payments">
+             <h2>Secure & Easy Payments</h2>
+             <p>We've partnered with Cashfree to offer you a seamless and secure payment experience. Pay using UPI, Credit/Debit Cards, Netbanking, Wallets, and more. Your transaction is safe with India's leading payment gateway.</p>
+        </div>
+    </section>
+
+    <section id="os-section">
+        <div class="container">
+            <h2>✅ Supported Operating Systems</h2>
+            <div class="os-options">
+                <div class="os-option">
+                    <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="Ubuntu Logo">
+                    <p>Ubuntu 22.04</p>
+                </div>
+                <div class="os-option">
+                    <img src="logo/OIP.webp" alt="Windows Logo">
+                    <p>Windows 10 Pro / 11</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Have Questions?</h2>
+            <p>📩 DM to Order or for More Info</p>
+            <p><strong>Email:</strong> <a href="mailto:akshitbhatia2050@gmail.com" style="color: #fff;">akshitbhatia2050@gmail.com</a></p>
+            <br>
+            <p><strong>Important:</strong> Please review our ❌ <strong>No Refund Policy</strong> before making a purchase.</p>
+            <p style="margin-top: 20px; font-size: 14px;">Copyright &copy; 2025 Affordable VPS Hosting India. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
